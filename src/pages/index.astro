@@ -1,11 +1,223 @@
 ---
-import Home from '../components/Home.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Home />
+	<!-- Hero Section -->
+	<section class="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white py-32">
+		<div class="absolute inset-0 opacity-20">
+			<img src="https://via.placeholder.com/1920x800/0066cc/ffffff?text=Nagpur+Skyline+with+Team" alt="Nagpur skyline with team" class="w-full h-full object-cover" />
+		</div>
+		<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+			<h1 class="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">Welcome to Ashkins Organisation</h1>
+			<p class="text-2xl md:text-3xl mb-4 font-semibold">Elevate Your Ambitions. Empower Your Future.</p>
+			<p class="text-lg md:text-xl mb-8 max-w-5xl mx-auto leading-relaxed">At Ashkins Organisation, based in the heart of Nagpur, we are pioneers in transformative sales and marketing solutions, dedicated to propelling careers to new heights and driving unparalleled business growth. Whether you're an aspiring entrepreneur honing your sales acumen in Nagpur or a brand seeking global expansion through AI-driven insights, our bespoke marketing strategies and leadership development programs are designed to unlock your full potential. With a legacy of innovation since 2010, we blend timeless relationship-building with cutting-edge data analytics, sustainable practices, and digital transformation tools to deliver results that exceed expectations in 2026's dynamic market.</p>
+			<div class="flex flex-wrap justify-center gap-4">
+				<a href="/careers" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition duration-300 shadow-lg">Explore Careers</a>
+				<a href="/services" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition duration-300">Our Services</a>
+				<a href="/contact" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition duration-300">Contact Us</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- What We Stand For -->
+	<section class="py-20 bg-white">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<h2 class="text-4xl font-bold text-center mb-12 text-gray-900">What We Stand For</h2>
+			<p class="text-lg text-gray-700 mb-8 max-w-5xl mx-auto text-center leading-relaxed">At Ashkins Organisation in Nagpur, our core philosophy revolves around people-first innovation. We believe that true success stems from empowering individuals and businesses alike. Founded on principles of integrity, collaboration, and relentless pursuit of excellence, we have evolved into a trusted partner for brands across industries in India. Our mission is to create dynamic ecosystems where talent thrives, strategies flourish, and growth is sustainable. With a track record of turning small-scale campaigns into international triumphs using AI-powered personalization, we prioritize customer-centric approaches that foster loyalty and drive revenue in the era of digital sustainability.</p>
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+				<div class="text-center p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition">
+					<div class="text-5xl mb-4">🤝</div>
+					<h3 class="text-xl font-bold mb-2 text-gray-900">Integrity</h3>
+					<p class="text-gray-600">Built on trust and ethical practices</p>
+				</div>
+				<div class="text-center p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition">
+					<div class="text-5xl mb-4">🤝</div>
+					<h3 class="text-xl font-bold mb-2 text-gray-900">Collaboration</h3>
+					<p class="text-gray-600">Working together for shared success</p>
+				</div>
+				<div class="text-center p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition">
+					<div class="text-5xl mb-4">⭐</div>
+					<h3 class="text-xl font-bold mb-2 text-gray-900">Excellence</h3>
+					<p class="text-gray-600">Relentless pursuit of superior results</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Our Key Services -->
+	<section class="py-20 bg-gray-50">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<h2 class="text-4xl font-bold text-center mb-6 text-gray-900">Our Key Services</h2>
+			<p class="text-lg text-gray-700 mb-12 max-w-4xl mx-auto text-center">We offer a comprehensive suite of sales and marketing services tailored to meet the unique needs of our clients in Nagpur and beyond. From initial consultation to measurable outcomes, our end-to-end solutions ensure seamless execution and continuous improvement with 2026 tech like predictive analytics.</p>
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+				<div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+					<div class="text-4xl mb-4">🎯</div>
+					<h3 class="text-xl font-bold mb-3 text-gray-900">Customer Acquisition</h3>
+					<p class="text-gray-600 mb-4">Harnessing a mix of traditional face-to-face engagements in Nagpur and modern digital tactics, including AI-targeted ads, we build robust customer bases by focusing on high-quality leads and fostering genuine relationships. Our data-driven strategies accelerate conversions and expand market reach.</p>
+					<a href="/services" class="text-blue-600 font-semibold hover:text-blue-800">Learn More →</a>
+				</div>
+				<div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+					<div class="text-4xl mb-4">🔄</div>
+					<h3 class="text-xl font-bold mb-3 text-gray-900">Customer Retention</h3>
+					<p class="text-gray-600 mb-4">Through innovative campaigns and personalized experiences powered by machine learning, we keep your audience engaged and loyal. We focus on creating memorable brand interactions that enhance satisfaction and encourage repeat business in competitive markets.</p>
+					<a href="/services" class="text-blue-600 font-semibold hover:text-blue-800">Learn More →</a>
+				</div>
+				<div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+					<div class="text-4xl mb-4">💼</div>
+					<h3 class="text-xl font-bold mb-3 text-gray-900">Client Servicing</h3>
+					<p class="text-gray-600 mb-4">Our tailor-made outsourcing solutions put your customers first. We handle everything from sales pipelines to ongoing support with CRM integrations, allowing you to concentrate on core operations while we deliver exceptional service.</p>
+					<a href="/services" class="text-blue-600 font-semibold hover:text-blue-800">Learn More →</a>
+				</div>
+				<div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+					<div class="text-4xl mb-4">📊</div>
+					<h3 class="text-xl font-bold mb-3 text-gray-900">Sales Management</h3>
+					<p class="text-gray-600 mb-4">We take full ownership of your sales processes, executing pipelines with precision and efficiency using automation tools. Our proven methodologies reduce costs, boost productivity, and align with your business goals.</p>
+					<a href="/services" class="text-blue-600 font-semibold hover:text-blue-800">Learn More →</a>
+				</div>
+				<div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+					<div class="text-4xl mb-4">🎨</div>
+					<h3 class="text-xl font-bold mb-3 text-gray-900">Branding and Promotion</h3>
+					<p class="text-gray-600 mb-4">Elevate your brand's visibility with creative campaigns that resonate. We specialize in crafting positive impressions through strategic promotions, events, and digital storytelling, including VR experiences for 2026 immersion.</p>
+					<a href="/services" class="text-blue-600 font-semibold hover:text-blue-800">Learn More →</a>
+				</div>
+				<div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+					<div class="text-4xl mb-4">🎪</div>
+					<h3 class="text-xl font-bold mb-3 text-gray-900">Events and Roadshows</h3>
+					<p class="text-gray-600 mb-4">Boost awareness and engagement with meticulously planned events. From intimate roadshows in Nagpur to large-scale activations across India, we create experiences that captivate audiences and generate buzz, incorporating sustainable event practices.</p>
+					<a href="/services" class="text-blue-600 font-semibold hover:text-blue-800">Learn More →</a>
+				</div>
+				<div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+					<div class="text-4xl mb-4">🚀</div>
+					<h3 class="text-xl font-bold mb-3 text-gray-900">Field Marketing</h3>
+					<p class="text-gray-600 mb-4">Our on-ground experts in Nagpur deliver targeted services like brand awareness drives, lead generation, product launches, and staff training to ensure direct impact with eco-friendly materials.</p>
+					<a href="/services" class="text-blue-600 font-semibold hover:text-blue-800">Learn More →</a>
+				</div>
+				<div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+					<div class="text-4xl mb-4">📞</div>
+					<h3 class="text-xl font-bold mb-3 text-gray-900">Telemarketing and Digital Outreach</h3>
+					<p class="text-gray-600 mb-4">Reach prospects anytime, anywhere with multi-channel strategies that combine technology and human touch for optimal results, including chatbot-assisted outreach.</p>
+					<a href="/services" class="text-blue-600 font-semibold hover:text-blue-800">Learn More →</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Why Choose Ashkins Organisation -->
+	<section class="py-20 bg-white">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Why Choose Ashkins Organisation?</h2>
+			<p class="text-lg text-gray-700 mb-12 max-w-4xl mx-auto text-center">What sets us apart in Nagpur's competitive landscape is our unwavering commitment to excellence and adaptability. Here's why businesses and professionals trust our sales and marketing expertise:</p>
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+				<div class="flex items-start space-x-4">
+					<div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold">✓</div>
+					<div>
+						<h3 class="text-xl font-bold mb-2 text-gray-900">Proven Legacy of Growth</h3>
+						<p class="text-gray-600">With 15+ years of experience, we've helped countless brands scale from local Nagpur markets to global arenas, backed by a 99% client satisfaction rate and AI-optimized campaigns.</p>
+					</div>
+				</div>
+				<div class="flex items-start space-x-4">
+					<div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold">✓</div>
+					<div>
+						<h3 class="text-xl font-bold mb-2 text-gray-900">Customized Strategies</h3>
+						<p class="text-gray-600">No one-size-fits-all here. We dive deep into your goals, industry trends, and challenges to design bullseye solutions that deliver tangible ROI, leveraging big data in 2026.</p>
+					</div>
+				</div>
+				<div class="flex items-start space-x-4">
+					<div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold">✓</div>
+					<div>
+						<h3 class="text-xl font-bold mb-2 text-gray-900">People-Centric Culture</h3>
+						<p class="text-gray-600">We invest in talent through comprehensive training, mentorship, and promotion pathways, turning associates into industry leaders with certifications in digital marketing.</p>
+					</div>
+				</div>
+				<div class="flex items-start space-x-4">
+					<div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold">✓</div>
+					<div>
+						<h3 class="text-xl font-bold mb-2 text-gray-900">Innovation at the Core</h3>
+						<p class="text-gray-600">Blending creativity with analytics, we stay ahead of market dynamics to provide forward-thinking solutions, including sustainable and ethical marketing practices.</p>
+					</div>
+				</div>
+				<div class="flex items-start space-x-4">
+					<div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold">✓</div>
+					<div>
+						<h3 class="text-xl font-bold mb-2 text-gray-900">Measurable Results</h3>
+						<p class="text-gray-600">From demand generation to sales enablement, every initiative is tracked and optimized for maximum impact using real-time dashboards.</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+				<div class="p-6 bg-gray-50 rounded-lg">
+					<div class="text-4xl font-bold text-blue-600 mb-2">15+</div>
+					<div class="text-gray-700 font-semibold">Years Experience</div>
+				</div>
+				<div class="p-6 bg-gray-50 rounded-lg">
+					<div class="text-4xl font-bold text-blue-600 mb-2">10+</div>
+					<div class="text-gray-700 font-semibold">Cities Covered</div>
+				</div>
+				<div class="p-6 bg-gray-50 rounded-lg">
+					<div class="text-4xl font-bold text-blue-600 mb-2">500+</div>
+					<div class="text-gray-700 font-semibold">Brand Ambassadors</div>
+				</div>
+				<div class="p-6 bg-gray-50 rounded-lg">
+					<div class="text-4xl font-bold text-blue-600 mb-2">50,000+</div>
+					<div class="text-gray-700 font-semibold">Satisfied Customers Monthly</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Testimonials -->
+	<section class="py-20 bg-gray-50">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Testimonials</h2>
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+				<div class="bg-white p-8 rounded-lg shadow-md">
+					<div class="flex items-center mb-4">
+						<img src="https://via.placeholder.com/80/0066cc/ffffff?text=CEO" alt="CEO photo" class="w-16 h-16 rounded-full mr-4" />
+						<div>
+							<div class="text-yellow-400 text-xl">★★★★★</div>
+							<p class="font-semibold text-gray-900">CEO, Local Tech Startup</p>
+						</div>
+					</div>
+					<p class="text-gray-700 italic">"Ashkins Organisation transformed our sales pipeline in Nagpur overnight. Their AI-driven insights led to a 40% increase in customer acquisition."</p>
+				</div>
+				<div class="bg-white p-8 rounded-lg shadow-md">
+					<div class="flex items-center mb-4">
+						<img src="https://via.placeholder.com/80/0066cc/ffffff?text=TL" alt="Team Leader photo" class="w-16 h-16 rounded-full mr-4" />
+						<div>
+							<div class="text-yellow-400 text-xl">★★★★★</div>
+							<p class="font-semibold text-gray-900">Former Associate, Now Team Leader</p>
+						</div>
+					</div>
+					<p class="text-gray-700 italic">"The leadership training here is unparalleled. I went from entry-level to management in under a year—truly empowering in today's fast-paced world!"</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Ready to Elevate CTA -->
+	<section class="py-20 bg-blue-600 text-white">
+		<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+			<h2 class="text-4xl font-bold mb-6">Ready to Elevate?</h2>
+			<p class="text-xl mb-8">Take the first step toward transformative growth in Nagpur. Whether you're looking to supercharge your career in sales or scale your business with modern marketing, Ashkins Organisation is your partner in success.</p>
+			<a href="/contact" class="inline-block bg-white text-blue-600 px-10 py-4 rounded-lg font-semibold hover:bg-gray-100 transition duration-300 text-lg shadow-lg">Get in Touch Today</a>
+		</div>
+	</section>
 </Layout>
+
+<style>
+	@keyframes fade-in {
+		from {
+			opacity: 0;
+			transform: translateY(-20px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+	
+	.animate-fade-in {
+		animation: fade-in 1s ease-out;
+	}
+</style>
